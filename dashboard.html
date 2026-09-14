@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MyBlog - Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+
+        <div class="logo">MyBlog</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+
+            <a href="create-blog.html">
+                Create Blog
+            </a>
+
+            <a href="#" id="logout">
+                Logout
+            </a>
+        </nav>
+
+    </header>
+
+
+    <!-- Dashboard -->
+    <main class="container dashboard">
+
+        <h1>Dashboard</h1>
+
+        <p>
+            Welcome to your blog dashboard!
+        </p>
+
+
+        <!-- Create Blog Button -->
+        <a href="create-blog.html" class="btn">
+            + Create New Blog
+        </a>
+
+
+        <!-- My Blogs -->
+        <h2>My Blogs</h2>
+
+        <!-- JavaScript will display blogs here -->
+        <div id="myBlogs">
+        </div>
+
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
